@@ -20,7 +20,8 @@ html.no-js(lang='en')
         |  browser. Please 
         a(href='http://browsehappy.com/') upgrade your browser
         |  to improve your experience.
-    // Add your site or application content here
+    include ../includes/header.jade
+    include ../includes/nav.jade
     block content 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js')
     script.
