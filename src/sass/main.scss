@@ -1,5 +1,9 @@
+@import
+  'utils/settings';
+
 @import 
-  'vendor/normalize-scss/normalize';
+  'vendor/normalize-scss/normalize',
+  'vendor/foundation/scss/foundation';
     
 @import 
   'utils/variables',
