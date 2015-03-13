@@ -1,0 +1,14 @@
+footer {
+  list-style: none;
+  text-align: center;
+
+  li {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  a {
+    display: inline-block;
+  }
+}
