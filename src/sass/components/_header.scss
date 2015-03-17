@@ -1,15 +1,15 @@
 header {
-  padding-top: 2rem;
+  padding-top: 1.3rem;
   text-align: center;
   letter-spacing: 5px; 
   text-transform: uppercase;
+  padding-bottom: 1rem;
 
   h1 {
-    padding-top: 1rem;
     color: $green;
   }
 
-  h6 {
-    color: $black;
+  h2 {
+    color: $dark-grey;
   }
 }
