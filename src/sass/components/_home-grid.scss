@@ -1,38 +1,6 @@
-.drop-shadow {
-  position: relative;
-
-  &:before {
-    z-index: -1;
-    position: absolute;
-    content: '';
-    bottom: 13px;
-    left: 15px;
-    width: 50%;
-    top: 80%;
-    max-width: 300px;
-    background: $black;
-    box-shadow: 0 15px 10px $dark-grey;
-    transform: rotate(-3deg);
-  }
-}
-
 @media #{$small-only} {
   .mobile-margin {
     margin-bottom: 20px;
-  }
-}
-
-.rectangle {
-  width: 300px;
-  height: 140px;
-  background-color: $green;
-
-  .rectangle-text {
-    font-size: 1.5rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 55px;
   }
 }
 

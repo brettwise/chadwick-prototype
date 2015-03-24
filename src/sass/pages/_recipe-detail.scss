@@ -1,11 +1,23 @@
+article {
+  img {
+    margin-bottom: 1.2rem;
+  }
+}
 .other-recipes {
   margin-top: 1.9rem;
 
   h6 {
-    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
   }
 
   p {
-    font-size: 0.6rem;
+    line-height: 0.8rem;
+    font-size: 0.8rem;
   }
+}
+
+.title-spacing {
+  letter-spacing: 9px;
 }

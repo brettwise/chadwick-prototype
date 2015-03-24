@@ -2,14 +2,139 @@ body {
   border-top: 3px solid $green;
 }
 
+.labelrow {
+  font-size: 1.1rem;
+  line-height: 30px;
+  margin-top: 80px;
+  margin-left: 40px;
+  position: absolute;
+  z-index: 10;
+}
+
 .display {
   margin-bottom: rem-calc(20); 
 }
 
 .banner {
   margin-bottom: 40px;
+  @media (min-width: 1500px) {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
 }
 
 .dots {
   color: $green;
+}
+
+// Put this class on the parent element of
+// a set of images to apply border around photos
+.photo-borders {
+  margin-top: 1rem;
+  
+  img {
+    background: $light-grey;
+    border: 1px;
+    border-color: darken($light-grey, 5%);
+    border-style: solid;
+    padding: 6px;
+  }
+}
+
+// The following 3 classes should be turned into a mixin
+
+.drop-shadow {
+  position: relative;
+
+  &:before {
+    background: $black;
+    box-shadow: 0 15px 10px $dark-grey;
+    content: '';
+    position: absolute;
+    max-width: 300px;
+    top: 80%;
+    bottom: 13px;
+    left: 15px;
+    width: 50%;
+    transform: rotate(-3deg);
+    z-index: -1;
+  }
+}
+
+.consulting-shadow {
+  position: relative;
+
+  &:before {
+    background: $black;
+    content: '';
+    box-shadow: 0 15px 10px $dark-grey;
+    max-width: 300px;
+    position: absolute;
+    top: 80%;
+    bottom: 2rem;
+    left: 15px;
+    width: 50%;
+    transform: rotate(-3deg);
+    z-index: -1;
+  }
+}
+
+// This does not work as expected. Return to later.
+.reading-shadow {
+  position: relative;
+
+  &:before {
+    background: $black;
+    content: '';
+    box-shadow: 0 22px 15px $dark-grey;
+    max-width: 300px;
+    position: absolute;
+    top: 80%;
+    bottom: 1.7rem;
+    left: 15px;
+    width: 50%;
+    transform: rotate(-3deg);
+    z-index: -1;
+  }
+}
+
+.green {
+  color: $green;
+
+  &:hover {
+    color: darken($green, 5%);
+  }
+}
+
+.rectangle {
+  width: 300px;
+  height: 140px;
+  background-color: $green;
+  text-transform: uppercase;
+  text-align: center;
+
+  .whats-new-text {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    padding-top: 55px;
+  }
+}
+
+.appearances {
+  padding-top: 2rem;
+
+  img {
+    margin-top: 12px;
+  }
+}
+
+.section-padding {
+  padding-top: 2rem;
+}
+
+.img-margin {
+  img {
+    margin-bottom: 1.5rem;
+  }
 }

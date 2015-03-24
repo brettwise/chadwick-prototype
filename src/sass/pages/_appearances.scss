@@ -1,0 +1,17 @@
+.date-box {
+  background: $green;
+  color: $white;
+  margin-top: 7px;
+  padding-top: 2px;
+  text-align: center;
+  text-transform: uppercase;
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+    padding-bottom: 4px;
+  }
+}

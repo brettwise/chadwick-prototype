@@ -1,0 +1,14 @@
+.logos {
+
+  img {
+    @media #{$small-only} {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+  }
+}
+
+.green-text {
+  color: $green;
+}
