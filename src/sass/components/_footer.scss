@@ -1,4 +1,5 @@
 footer {
+  background-color: $light-grey;
   list-style: none;
   text-align: center;
 
@@ -9,6 +10,13 @@ footer {
   }
 
   a {
+    background-color: $light-grey;
     display: inline-block;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
   }
 }
