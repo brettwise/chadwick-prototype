@@ -138,3 +138,31 @@ body {
     margin-bottom: 1.5rem;
   }
 }
+
+form {
+  padding-top: 2rem;
+
+  label {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  button {
+    background-color: $white;
+    border-color: $green;
+    border-style: solid;
+    border-width: 3px;
+    color: $green;
+    letter-spacing: 4px;
+    padding: 0.6rem 1rem; 
+    text-transform: uppercase;
+    &:hover {
+      background-color: $green;
+      color: $white;
+    }
+  }
+}
+
+.letter-spacing {
+  letter-spacing: 4px;
+}

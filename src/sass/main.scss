@@ -1,9 +1,9 @@
+@import 'utils/variables';
 @import 'utils/settings'; // Foundation Settings
 
 @import 'vendor/normalize-scss/normalize';
 @import 'vendor/foundation/scss/foundation';
     
-@import 'utils/variables';
 @import 'utils/mixins';
 
 @import 'base/typography';

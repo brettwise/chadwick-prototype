@@ -1,0 +1,31 @@
+extends layouts/h5bp.jade
+
+block content
+  .row
+    .columns.text-center.section-padding
+      h5.letter-spacing Let's Get in Touch
+  form
+    .row
+      .medium-10.medium-offset-1.columns
+        label Name*
+          input(type='text' name='name' required)
+    .row
+      .medium-10.medium-offset-1.columns
+        label Email*
+          input(type='email' name='email' required)
+    .row
+      .medium-10.medium-offset-1.columns
+        label Phone*
+          input(type='tel' name='tel' required)
+    .row
+      .medium-10.medium-offset-1.columns
+        label Company
+          input(type='text' name='company')
+    .row
+      .medium-10.medium-offset-1.columns
+        label Message*
+          textarea(name='message' required )
+    .row
+      .columns.medium-offset-1
+        button(name='submit' value='Submit') Submit
+    

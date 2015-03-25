@@ -1,6 +1,7 @@
 h1 {
   color: $green;
   font-size: 1.9rem;
+  letter-spacing: 8px;
   text-transform: uppercase;
 }
 
@@ -28,4 +29,10 @@ h5 {
   font-size: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+h6 {
+  color: $dark-grey;
+  font-size: 0.8rem;
+  font-style: italic;
 }
